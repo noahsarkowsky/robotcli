@@ -70,7 +70,9 @@ process.stdin.on('keypress', function (ch, key) {
 
 
   if (key && key.ctrl && key.name == 'c') {
-    process.stdin.pause();
+    console.log('control c');
+    process.exit(0);
+   // process.stdin.pause();
   }
 });
 
