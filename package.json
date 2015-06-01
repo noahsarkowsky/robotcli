@@ -1,0 +1,28 @@
+{
+  "name": "robotcli",
+  "version": "0.0.0",
+  "description": "Starter code for controlling the irobot from the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seattleacademy/robotcli.git"
+  },
+  "keywords": [
+    "node",
+    "irobot"
+  ],
+  "author": "ganderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seattleacademy/robotcli/issues"
+  },
+  "homepage": "https://github.com/seattleacademy/robotcli",
+  "dependencies": {
+    "irobot": "^0.1.0",
+    "thunder-connector": "0.0.1",
+    "keypress": "^0.2.1"
+  }
+}
